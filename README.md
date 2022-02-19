@@ -1,17 +1,3 @@
-# Reproducible Research Task 1
-# "Reproducible Research" Course Project 1 Submission
-
-This is my submission for the Coursera assignment, for the Reproducible Research course. 
-
-The files in this repo are:
-
-* The R Markdown document, containing the R code and written explanations, can be found in the file [PA1_template.Rmd](PA1_template.Rmd). The same document, in Markdown format, can be found at [PA1_template.md](PA1_template.md), and the HTML version at [PA1_template.html](PA1_template.html).
-* The [�figure�](figure) folder contains all of the graphs created in the markdown document.
-* The dataset used within the assignment has the file name [�activity.zip�](activity.zip).
-* Image files for rendering the html version of the markdown file: [PA1_template_files](PA1_template_files).
-
-Below is a copy of the original README file, from the original repo, where information on both the raw data set and the course assignment is detailed.
-
 ## Introduction
 
 It is now possible to collect a large amount of data about personal
@@ -136,7 +122,7 @@ the dataset with the filled-in missing values for this part.
 
 1. Create a new factor variable in the dataset with two levels -- "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
 
-1. Make a panel plot containing a time series plot (i.e. `type = "l"`) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). The plot should look something like the following, which was created using **simulated data**:
+1. Make a panel plot containing a time series plot (i.e. `type = "l"`) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). The plot should look something like the following, which was creating using **simulated data**:
 
 
 **Your plot will look different from the one above** because you will
@@ -149,11 +135,11 @@ using any plotting system you choose.
 
 To submit the assignment:
 
-1. Commit your completed `PA1_template.Rmd` file to the `master` branch of your git repository (you should already be on the `master` branch unless you created new ones)
+1. Commit the your completed `PA1_template.Rmd` file to the `master` branch of your git repository (you should already be on the `master` branch unless you created new ones)
 
-2. Commit your `PA1_template.md` and `PA1_template.html` files produced by processing your R markdown file with the `knit2html()` function in R (from the **knitr** package)
+2. Commit your `PA1_template.md` and `PA1_template.html` files produced by processing your R markdown file with `knit2html()` function in R (from the **knitr** package)
 
-3. If your document has figures included (it should) then they should have been placed in the `figure/` directory by default (unless you overrode the default). Add and commit the `figure/` directory to your git repository.
+3. If your document has figures included (it should) then they should have been placed in the `figures/` directory by default (unless you overrided the default). Add and commit the `figures/` directory to yoru git repository.
 
 4. Push your `master` branch to GitHub.
 
@@ -163,9 +149,9 @@ In addition to submitting the URL for your GitHub repository, you will
 need to submit the 40 character SHA-1 hash (as string of numbers from
 0-9 and letters from a-f) that identifies the repository commit that
 contains the version of the files you want to submit. You can do this
-in GitHub by doing the following:
+in GitHub by doing the following
 
-1. Go into your GitHub repository web page for this assignment
+1. Going to your GitHub repository web page for this assignment
 
 2. Click on the "?? commits" link where ?? is the number of commits you have in the repository. For example, if you made a total of 10 commits to this repository, the link should say "10 commits".
 
